@@ -39,7 +39,24 @@ public class ApptTest {
 	 }
 
 	 @Test
-	  public void test02()  throws Throwable  {
+	  public void test02()  throws Throwable {
+		 int startHour = 25;
+		 int startMinute = 61;
+		 int startDay = 40;
+		 int startMonth = 13;
+		 int startYear = 2011;
+		 String title = "Appointment";
+		 String description = "Dentist";
+
+		 Appt appt = new Appt(startHour,
+				 startMinute,
+				 startDay,
+				 startMonth,
+				 startYear,
+				 title,
+				 description);
+		 assertFalse(appt.getValid());
+	 }
 		 
 	 }
 //add more unit tests as you needed
