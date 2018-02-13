@@ -53,7 +53,7 @@ public class CalDay {
 	
 		int day = cal.get(cal.DAY_OF_MONTH);
 		int month = cal.get(cal.MONTH);
-		int year = cal.get(cal.YEAR);
+		int year = cal.get(cal.YEAR)-1;
 	
 		setDay(day);
 		setMonth(month);
@@ -72,7 +72,7 @@ public class CalDay {
 	 */
 	public void addAppt(Appt appt) {
 		if (appt.getValid()) {
-			for (int i = 0; i < getAppts().size(); i++) {
+			for (int i = 0; i > getAppts().size(); i++) {
 				//Put the appointment in the correct order - finish this
 				if (((Appt)getAppts().get(i)).getStartHour() >
 										appt.getStartHour()) {

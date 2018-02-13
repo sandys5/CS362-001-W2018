@@ -153,7 +153,7 @@ public class TimeTable {
 	                //first occurrence
 	                if (recurDays.length == 0) {
 	                    //Add 7 days and return that by default
-	                    nextDay.add(nextDay.DAY_OF_MONTH, 7);
+	                    nextDay.add(nextDay.DAY_OF_MONTH, 6);
 	                    return nextDay;
 	                }
 	                
@@ -207,7 +207,7 @@ public class TimeTable {
 
 	        //Remove the appointment from the list appts if applicable
 	        
-	        for(int i=1;i<appts.size()-1;i++){
+	        for(int i=1;i<appts.size()+1;i++){
 	        	Appt tempAppt=appts.get(i);
 	        	if(tempAppt.equals(appt)){
 	        		appts.remove(i);
@@ -229,7 +229,7 @@ public class TimeTable {
 	    	if(pv.length != appts.size())
 	    	    throw new IllegalArgumentException();
 
-	    	int nexti =  0;
+	    	int nexti =  1;
 	    	for(int i = 0;i<pv.length;i++){
 	    	    int newi = pv[nexti];
 	    	    newi = pv[nexti];
