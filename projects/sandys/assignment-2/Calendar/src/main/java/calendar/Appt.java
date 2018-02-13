@@ -118,7 +118,7 @@ public class Appt implements  Comparable<Appt>{
         	if(startMinute<0 || startMinute>59)
         		this.valid=false;
         	else
-            	if(startDay<2 || startDay>NumDaysInMonth+1)
+            	if(startDay<1 && startDay>NumDaysInMonth)
             		this.valid=false;
             	else
                 	if(startMonth<1 || startMonth>12)
@@ -246,7 +246,7 @@ public class Appt implements  Comparable<Appt>{
     }
     /** Gets recurNumber */
     public int getRecurNumber() {
-        return recurNumber;
+        return recurNumber-1;
     }
     /** Gets recurBy */
     public int getRecurBy() {

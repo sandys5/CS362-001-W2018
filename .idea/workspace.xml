@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5252706c-c380-43e7-9ef3-86426ad0eaf4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/Calendar.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/Calendar.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/classes/calendar/Appt.class" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/classes/calendar/Appt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/classes/calendar/TimeTable.class" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/classes/calendar/TimeTable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/jacoco.exec" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/jacoco.exec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/test-classes/calendar/ApptTest.class" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/test-classes/calendar/ApptTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/test-classes/calendar/TimeTableTest.class" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/test-classes/calendar/TimeTableTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/aburasa/assignment-3/Calendar/pom.xml" afterPath="$PROJECT_DIR$/projects/aburasa/assignment-3/Calendar/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/CalDay.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/CalDay.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/TEST-calendar.ApptTest.xml" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/TEST-calendar.ApptTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/TEST-calendar.CalDayTest.xml" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/TEST-calendar.CalDayTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.ApptTest.txt" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.ApptTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.CalDayTest.txt" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.CalDayTest.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.TimeTableTest.txt" afterPath="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/surefire-reports/calendar.TimeTableTest.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/target/" />
     <ignored path="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/target/" />
@@ -32,31 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalDayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="412">
+              <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -65,8 +42,18 @@
       <file leaf-file-name="TimeTableTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="187">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApptTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -82,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Appt.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Appt.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="120" column="58" lean-forward="false" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="58" />
+            <state relative-caret-position="170">
+              <caret line="248" column="28" lean-forward="false" selection-start-line="248" selection-start-column="28" selection-end-line="248" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -95,8 +82,8 @@
       <file leaf-file-name="TimeTable.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+            <state relative-caret-position="589">
+              <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -122,11 +109,12 @@
         <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml" />
         <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/pom.xml" />
         <option value="$PROJECT_DIR$/projects/aburasa/assignment-3/Calendar/pom.xml" />
-        <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java" />
         <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/CalDay.java" />
         <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java" />
-        <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java" />
         <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java" />
+        <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java" />
+        <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java" />
+        <option value="$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java" />
       </list>
     </option>
   </component>
@@ -594,13 +582,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19253294" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34272996" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34124628" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -803,18 +791,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java">
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+        <state relative-caret-position="225">
+          <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java">
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="120" column="58" lean-forward="false" selection-start-line="120" selection-start-column="58" selection-end-line="120" selection-end-column="58" />
+        <state relative-caret-position="412">
+          <caret line="40" column="56" lean-forward="false" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/TimeTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="94" column="30" lean-forward="false" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="56" column="1" lean-forward="false" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -827,34 +839,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/TimeTableTest.java">
+    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/main/java/calendar/Appt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="67" column="35" lean-forward="false" selection-start-line="67" selection-start-column="35" selection-end-line="67" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/ApptTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/sandys/assignment-2/Calendar/src/test/java/calendar/CalDayTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="40" column="56" lean-forward="true" selection-start-line="40" selection-start-column="56" selection-end-line="40" selection-end-column="56" />
+          <caret line="248" column="28" lean-forward="false" selection-start-line="248" selection-start-column="28" selection-end-line="248" selection-end-column="28" />
           <folding />
         </state>
       </provider>

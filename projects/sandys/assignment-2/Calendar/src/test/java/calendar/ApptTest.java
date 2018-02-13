@@ -14,7 +14,7 @@ public class ApptTest {
 	  public void test01()  throws Throwable  {
 		 int startHour=21;
 		 int startMinute=30;
-		 int startDay=28;
+		 int startDay=31;
 		 int startMonth=2;
 		 int startYear=2018;
 		 String title="Birthday Party";
@@ -28,10 +28,10 @@ public class ApptTest {
 		          title,
 		         description);
 	// assertions
-		 assertTrue(appt.getValid());
+		 assertFalse(appt.getValid());
 		 assertEquals(21, appt.getStartHour());
 		 assertEquals(30, appt.getStartMinute());
-		 assertEquals(28, appt.getStartDay());
+		 //assertEquals(28, appt.getStartDay());
 		 assertEquals(2, appt.getStartMonth());
 		 assertEquals(2018, appt.getStartYear());
 		 assertEquals("Birthday Party", appt.getTitle());
