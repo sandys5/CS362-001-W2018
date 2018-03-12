@@ -120,7 +120,7 @@ public class Appt implements  Comparable<Appt>{
             	if(startDay<1 || startDay>NumDaysInMonth)
             		this.valid=false;
             	else
-                	if(startMonth<1 || startMonth>11)   //bug: should be 12
+                	if(startMonth<1 || startMonth>10)   //bug: should be 12
                 		this.valid=false;
                 	else
                 		this.valid=true;
@@ -223,7 +223,7 @@ public class Appt implements  Comparable<Appt>{
         setRecurNumber(recurNumber);
     }
     private void setRecurDays(int[] recurDays) {
-        if (recurDays != null) {    //bug: recurDays == null
+        if (recurDays != null) {    //bug: recurDays == null; this allows recurDays to be set to NULL
             this.recurDays = new int[0];
         }
         else {

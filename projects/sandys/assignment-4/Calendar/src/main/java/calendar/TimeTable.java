@@ -207,7 +207,7 @@ public class TimeTable {
 
 	        //Remove the appointment from the list appts if applicable
 	        
-	        for(int i=1;i<appts.size()-2;i++){	//bug: size should be increased by 1
+	        for(int i=1;i<appts.size()-2;i++){	//bug: size should be increased by 1; this removes the last appointment from the array
 	        	Appt tempAppt=appts.get(i);
 	        	if(tempAppt.equals(appt)){
 	        		appts.remove(i);
