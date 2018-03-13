@@ -1,0 +1,16 @@
+First bug: in isValid(), the method returns false if startMinute is greater than 100
+- However, startMinute should have 59 as its highest value.
+- This bug makes it so the starting minute can be between 0-100, even though minutes 60-100 should not exist
+- I caught this bug with the random test I created for the Appt class. The test returned an assertion failure and I ran the test again with assertTrue(appt.getValid()) commented out. When I ran the test again, there was no assertion error. This is how I figured the bug must be located somewhere within isValid(). Looking over the isValid() code, I saw that the starting minute could be set up to 100 and still be considered valid.
+
+Second bug: in NumDaysInMonth() on line 30, baseDays is set to DaysInMonth[month + 1]
+- However, when isValid calls CalendarUtil.NumDaysInMonth, it passes startMonth - 1 in order to access the correct element in the DaysInMonth array
+- This bug causes the method to skip one month ahead when assigning the number of days to the current month
+- I caught this bug with my first unit test in TimeTableTest. The test returned an assertion error for line 30 of my test. This showed me that the appointment was considered valid even though it set for February 35, 2020. When I checked the isValid() method, I could not find any bugs. So I checked NumDaysInMonth() to see if the method was assigning the incorrect number of days for the current month. This is when I saw that the baseDays variable was being assigned the element ahead of what is was supposed to be.
+- However, this bug is not what caused my test to fail, it was just one I noticed while looking for the source of failure for my test
+
+Third bug: in NumDaysInMonth() on line 33, when the current year is a leap year the number of days in February in increased by 5 instead of 1
+- In my first unit test in TimeTableTest, I set an appointment for February 35 2020, which is a leap year. The test asserts that the appointment should not be valid.
+- Due to this bug and the previous bug, the program sets the base number of days to 31 (the number of days in March) and increases it by 5 if it is a leap year. This allows appointments scheduled from February 30-36 on leap years to be valid, even though those days do not exist.
+- I caught this bug when the assertion on line 30 of my first unit test in TimeTableTest failed
+
