@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Calendar" />
+        <module name="URLValidatorInCorrect" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Calendar" target="1.6" />
+      <module name="URLValidatorInCorrect" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
